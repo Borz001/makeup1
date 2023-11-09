@@ -1,0 +1,11 @@
+Задание:Создать репозиторий и подключить ее к локальному компу
+Решение:1)Заходим  в гитхаб создаем репозиторий выбираем ssh ссылку
+2)октрываем vs code открываем terminal и пишем команды 
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Borz001/ds.git
+git push -u origin main
+
+и вот вы подключились к репозиторий
